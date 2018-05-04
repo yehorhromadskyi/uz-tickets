@@ -43,7 +43,7 @@ namespace UzTickets.Services.Implementation
 
         private string GetLuisRequestUrl(string query)
         {
-            return string.Format(LuisBaseUrl, _configuration["luisAppId"], _configuration["luidAppKey"], query);
+            return string.Format(LuisBaseUrl, _configuration["luisAppId"], _configuration["luisAppKey"], query);
         }
     }
 }
